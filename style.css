@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #00184a;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 120px 20px 100px 20px;
+}
+
+#borrar {
+  padding: 20px 95px 20px 95px;
+}
+
+#igual {
+  padding: 20px 55px 20px 55px;
+}
+
+.pantalla {
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  text-align: right;
+  font-family: "Arsenal SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.num {
+  color: #000;
+  background: #ffa2d0;
+  border: #000 solid 1px;
+  border-radius: 50px 0 50px 50px;
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+  margin: 10px;
+  font-family: "Arsenal SC", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.num:hover {
+  background: #ffffff;
+  box-shadow: 2px 2px 5px 1px #000;
+}
+
+.operation {
+  color: #ffffff;
+  background: #ff008b;
+  border: #000 solid 1px;
+  border-radius: 50px 0 50px 50px;
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+  margin: 10px;
+  font-family: "Arsenal SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.operation:hover {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 2px 2px 5px 1px #ffffff;
+  border-color: #ffffff;
+}
